@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.jblearning.candystorev5"
+<manifest package="com.bateman.candystorev5"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
   <application
@@ -9,7 +9,7 @@
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <activity
-        android:name=".MainActivity"
+        android:name="com.bateman.candystorev5.MainActivity"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar"
         android:screenOrientation="portrait">
@@ -21,17 +21,17 @@
     </activity>
 
     <activity
-        android:name=".InsertActivity"
+        android:name="com.bateman.candystorev5.InsertActivity"
         android:screenOrientation="portrait">
     </activity>
 
     <activity
-        android:name=".DeleteActivity"
+        android:name="com.bateman.candystorev5.DeleteActivity"
         android:screenOrientation="portrait">
     </activity>
 
     <activity
-        android:name=".UpdateActivity"
+        android:name="com.bateman.candystorev5.UpdateActivity"
         android:screenOrientation="portrait">
     </activity>
   </application>

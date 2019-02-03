@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">CandyStoreV5</string>
+  <string name="app_name">CandyStore V5</string>
   <string name="action_settings">Settings</string>
   <string name="reset">RESET</string>
   <string name="add">ADD</string>

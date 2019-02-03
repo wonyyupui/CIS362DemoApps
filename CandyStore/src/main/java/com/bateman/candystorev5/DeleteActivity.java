@@ -1,4 +1,4 @@
-package com.jblearning.candystorev5;
+package com.bateman.candystorev5;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

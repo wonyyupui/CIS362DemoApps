@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.jblearning.candystorev5.MainActivity">
+      tools:context="com.bateman.candystorev5.MainActivity">
   <item android:id="@+id/action_reset"
         android:title="@string/reset"
         android:icon="@drawable/ic_reset"

@@ -1,4 +1,4 @@
-package com.jblearning.candystorev5;
+package com.bateman.candystorev5;
 
 import android.graphics.Point;
 import android.os.Bundle;
