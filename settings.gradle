@@ -1,0 +1,1 @@
+include ':app', 'MyFirstApp', 'IntentsDemo', 'ShippingApp', ':DrawableDemo', 'CandyStore'
