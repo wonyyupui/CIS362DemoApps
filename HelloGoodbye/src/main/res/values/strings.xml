@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloGoodbye</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Good Bye</string>
+    <string name="exclaim_img">exclaim</string>
+    <string name="exclaim_btn">exclaim_btn</string>
+</resources>
