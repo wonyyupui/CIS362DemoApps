@@ -1,1 +1,1 @@
-include ':app', 'MyFirstApp', 'IntentsDemo', 'ShippingApp', ':DrawableDemo', 'CandyStore'
+include ':app', 'MyFirstApp', 'IntentsDemo', 'ShippingApp', ':DrawableDemo', 'CandyStore', 'HelloGoodbye'
