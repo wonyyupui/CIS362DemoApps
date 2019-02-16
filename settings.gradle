@@ -1,1 +1,1 @@
-include ':app', 'MyFirstApp', 'IntentsDemo', 'ShippingApp', ':DrawableDemo', 'CandyStore', 'HelloGoodbye', 'TapButtonCounter', 'BurgerCalorieCounter', 'Calculator', 'RennaissancePainting', 'PaintCalculator', 'ActivityLifeCycle'
+include ':app', 'MyFirstApp', 'IntentsDemo', 'ShippingApp', ':DrawableDemo', 'CandyStore', 'HelloGoodbye', 'TapButtonCounter', 'BurgerCalorieCounter', 'Calculator', 'RennaissancePainting', 'PaintCalculator', 'ActivityLifeCycle', 'AutoPurschase', 'AutoPurchaseApp'

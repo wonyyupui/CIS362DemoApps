@@ -1,4 +1,4 @@
-package com.bateman.activitylifecycle;
+package com.bateman.autopurchase;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
