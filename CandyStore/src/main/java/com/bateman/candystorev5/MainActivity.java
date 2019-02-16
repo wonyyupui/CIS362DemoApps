@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView( R.layout.activity_main );
     Toolbar toolbar = ( Toolbar ) findViewById( R.id.toolbar );
     setSupportActionBar( toolbar );
+
     dbManager = new DatabaseManager( this );
     total = 0.0;
     scrollView = ( ScrollView ) findViewById( R.id.scrollView );
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
       // fill the grid
       int i = 0;
+
       for ( Candy candy : candies ) {
         // create the button
         buttons[i] = new CandyButton( this, candy );
