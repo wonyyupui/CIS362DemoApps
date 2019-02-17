@@ -38,12 +38,12 @@ public class MyActivity extends Activity {
     }
 
     private void referenceUIcomponents() {
-        lengthET = (EditText) findViewById(R.id.editText1);
-        widthET = (EditText) findViewById(R.id.editText2);
-        heightET = (EditText) findViewById(R.id.editText3);
-        nDoorsET = (EditText) findViewById(R.id.editText4);
-        nWindowsET = (EditText) findViewById(R.id.editText5);
-        nGallonsV = (TextView) findViewById(R.id.textView9);
+        lengthET = findViewById(R.id.editText1);
+        widthET = findViewById(R.id.editText2);
+        heightET = findViewById(R.id.editText3);
+        nDoorsET = findViewById(R.id.editText4);
+        nWindowsET = findViewById(R.id.editText5);
+        nGallonsV = findViewById(R.id.textView9);
     }
 
     public void computeGallons (View view) {

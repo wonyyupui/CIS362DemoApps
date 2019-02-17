@@ -24,7 +24,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
 
         //REFERENCE THE SCROLLABLE LAYOUT STRUCTURE IN MAIN_SCREEN.XML
-        mLinearList = (LinearLayout) findViewById(R.id.linearList);
+        mLinearList = findViewById(R.id.linearList);
 
         //FILL THE SCROLLABLE LAYOUT STRUCTURE WITH PAINTINGS
         fillPaintingCarousel();

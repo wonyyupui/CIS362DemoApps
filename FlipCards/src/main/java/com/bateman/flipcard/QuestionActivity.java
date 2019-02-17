@@ -16,7 +16,7 @@ public class QuestionActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-        Button answerBtn = (Button) findViewById(R.id.button);
+        Button answerBtn = findViewById(R.id.button);
         answerBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override

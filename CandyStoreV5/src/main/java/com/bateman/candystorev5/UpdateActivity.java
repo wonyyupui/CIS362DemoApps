@@ -93,8 +93,8 @@ public class UpdateActivity extends AppCompatActivity {
     public void onClick( View v ) {
       // retrieve name and price of the candy
       int candyId = v.getId( );
-      EditText nameET = ( EditText ) findViewById( 10 * candyId );
-      EditText priceET = ( EditText ) findViewById( 10 * candyId + 1 );
+      EditText nameET = findViewById( 10 * candyId );
+      EditText priceET = findViewById( 10 * candyId + 1 );
       String name = nameET.getText( ).toString( );
       String priceString = priceET.getText( ).toString( );
 

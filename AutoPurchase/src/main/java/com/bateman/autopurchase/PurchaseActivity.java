@@ -30,9 +30,9 @@ public class PurchaseActivity extends Activity {
         setContentView(R.layout.purchase_layout);
 
         //ESTABLISH REFERENCES TO EDITABLE TEXT FIELDS AND RADIO BUTTON
-        carPriceET = (EditText) findViewById(R.id.editText1);
-        downPayET = (EditText) findViewById(R.id.editText2);
-        loanTermRG = (RadioGroup) findViewById(R.id.radioGroup1);
+        carPriceET = findViewById(R.id.editText1);
+        downPayET = findViewById(R.id.editText2);
+        loanTermRG = findViewById(R.id.radioGroup1);
 
         //CREATE AN AUTOMOBILE OBJECT TO STORE AUTO DATA
         mAuto = new Auto();
@@ -50,7 +50,7 @@ public class PurchaseActivity extends Activity {
 
         //TASK 3 SET THE LOAN TERM
         Integer radioId = loanTermRG.getCheckedRadioButtonId();
-        RadioButton term = (RadioButton) findViewById(radioId);
+        RadioButton term = findViewById(radioId);
         mAuto.setLoanTerm(term.getText().toString());
     }
     private void buildLoanReport() {

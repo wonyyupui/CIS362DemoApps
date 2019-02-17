@@ -29,8 +29,7 @@ public class SecondScreen extends Activity {
 
         String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
 
-        TextView callingActivityMessage = (TextView)
-                findViewById(R.id.callinig_activity_info_text_view);
+        TextView callingActivityMessage = findViewById(R.id.callinig_activity_info_text_view);
 
         callingActivityMessage.append(" " + previousActivity);
     }
@@ -39,7 +38,7 @@ public class SecondScreen extends Activity {
 
 
         // Get the users name from the EditText
-        EditText usersNameET = (EditText) findViewById(R.id.users_name_edit_text);
+        EditText usersNameET = findViewById(R.id.users_name_edit_text);
 
         // Get the name typed into the EditText
         String usersName = String.valueOf(usersNameET.getText());

@@ -17,7 +17,7 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
-        mNumberDisplay = (TextView) findViewById(R.id.textView1);
+        mNumberDisplay = findViewById(R.id.textView1);
 
         mExpression = new SimpleExpression();
     }
@@ -41,7 +41,7 @@ public class MyActivity extends Activity {
         String operator = (String) view.getContentDescription();
         try {
             String val = (String) mNumberDisplay.getText();
-            mExpression.setOperand1((int) Integer.parseInt(val.toString()));
+            mExpression.setOperand1(Integer.parseInt(val));
         }
         catch (NumberFormatException e){
             mExpression.setOperand1(0);
@@ -55,7 +55,7 @@ public class MyActivity extends Activity {
     public void goCompute (View view){
         try {
             String val = (String) mNumberDisplay.getText();
-            mExpression.setOperand2((int) Integer.parseInt(val.toString()));
+            mExpression.setOperand2(Integer.parseInt(val));
         }
         catch (NumberFormatException e){
             mExpression.setOperand2(0);

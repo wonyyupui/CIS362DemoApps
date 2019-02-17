@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         // Create the TextView so I can put the users name on it
-        TextView usersNameMessage = (TextView) findViewById(R.id.users_name_message);
+        TextView usersNameMessage = findViewById(R.id.users_name_message);
 
         // Get the users name from the previous Activity
         String nameSentBack = data.getStringExtra("UsersName");

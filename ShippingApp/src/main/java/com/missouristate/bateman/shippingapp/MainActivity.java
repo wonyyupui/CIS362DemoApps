@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         //TASK 3: ESTABLISH THE REFERENCES TO OUTPUT ELEMENTS
-        baseCostTV = (TextView) findViewById(R.id.textView4);
-        addedCostTV = (TextView) findViewById(R.id.textView6);
-        totalCostTV = (TextView) findViewById(R.id.textView8);
+        baseCostTV = findViewById(R.id.textView4);
+        addedCostTV = findViewById(R.id.textView6);
+        totalCostTV = findViewById(R.id.textView8);
 
 
         //TASK 4: REGISTER THE LISTENER EVENT FOR WEIGHT INPUT
