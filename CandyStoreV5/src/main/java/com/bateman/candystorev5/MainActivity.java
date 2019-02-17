@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
+//Concept borrowed from Hervé J. Franceschi
 
 public class MainActivity extends AppCompatActivity {
   private DatabaseManager dbManager;

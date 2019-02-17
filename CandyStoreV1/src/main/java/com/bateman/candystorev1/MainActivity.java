@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+//Concept borrowed from Hervé J. Franceschi
 public class MainActivity extends AppCompatActivity {
 
   @Override
