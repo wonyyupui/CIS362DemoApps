@@ -17,8 +17,8 @@ public class InsertActivity extends AppCompatActivity {
 
   public void insert( View v ) {
     // Retrieve name and price
-    EditText nameEditText = findViewById( R.id.input_name );
-    EditText priceEditText = findViewById( R.id.input_price );
+    EditText nameEditText = ( EditText) findViewById( R.id.input_name );
+    EditText priceEditText = ( EditText) findViewById( R.id.input_price );
     String name = nameEditText.getText( ).toString( );
     String priceString = priceEditText.getText( ).toString( );
 

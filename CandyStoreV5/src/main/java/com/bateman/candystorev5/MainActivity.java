@@ -25,12 +25,11 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate( Bundle savedInstanceState ) {
     super.onCreate( savedInstanceState );
     setContentView( R.layout.activity_main );
-    Toolbar toolbar = findViewById( R.id.toolbar );
+    Toolbar toolbar = ( Toolbar ) findViewById( R.id.toolbar );
     setSupportActionBar( toolbar );
-
     dbManager = new DatabaseManager( this );
     total = 0.0;
-    scrollView = findViewById( R.id.scrollView );
+    scrollView = ( ScrollView ) findViewById( R.id.scrollView );
     Point size = new Point( );
     getWindowManager( ).getDefaultDisplay( ).getSize( size );
     buttonWidth = size.x / 2;
@@ -59,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
       // fill the grid
       int i = 0;
-
       for ( Candy candy : candies ) {
         // create the button
         buttons[i] = new CandyButton( this, candy );
@@ -105,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
         return true;
       case R.id.action_reset:
         total = 0.0;
+        return true;
+      case R.id.action_exit:
+        this.finish();
         return true;
       default:
         return super.onOptionsItemSelected( item );

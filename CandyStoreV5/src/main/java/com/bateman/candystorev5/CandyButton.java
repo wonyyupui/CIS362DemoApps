@@ -1,9 +1,11 @@
 package com.bateman.candystorev5;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatButton;
 import android.widget.Button;
 
-public class CandyButton extends android.support.v7.widget.AppCompatButton {
+
+public class CandyButton extends AppCompatButton {
   private Candy candy;
 
   public CandyButton( Context context, Candy newCandy ) {
