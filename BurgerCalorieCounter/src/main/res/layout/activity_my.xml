@@ -80,6 +80,7 @@
 
         <RadioButton
             android:id="@+id/radio4"
+            style="@android:style/Widget.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/provolone" />
