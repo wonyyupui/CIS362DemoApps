@@ -28,8 +28,10 @@ public class UpdateActivity extends AppCompatActivity  {
   // Build a View dynamically with all the candies
   public void updateView( ) {
     ArrayList<Candy> candies = dbManager.selectAll( );
+
+    // create ScrollView and GridLayout
     if( candies.size( ) > 0 ) {
-      // create ScrollView and GridLayout
+
       ScrollView scrollView = new ScrollView( this );
       GridLayout grid = new GridLayout( this );
       grid.setRowCount( candies.size( ) );
@@ -46,10 +48,11 @@ public class UpdateActivity extends AppCompatActivity  {
       getWindowManager( ).getDefaultDisplay( ).getSize( size );
       int width = size.x;
 
+      // create the TextView for the candy's id
       int i = 0;
 
       for ( Candy candy : candies ) {
-        // create the TextView for the candy's id
+
         ids[i] = new TextView( this );
         ids[i].setGravity( Gravity.CENTER );
         ids[i].setText( "" + candy.getId( ) );

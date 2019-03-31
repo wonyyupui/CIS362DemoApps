@@ -7,7 +7,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 
-public class DatabaseManager extends SQLiteOpenHelper {
+public class
+
+
+DatabaseManager extends SQLiteOpenHelper {
   private static final String DATABASE_NAME = "candyDB";
   private static final int DATABASE_VERSION = 1;
   private static final String TABLE_CANDY = "candy";
